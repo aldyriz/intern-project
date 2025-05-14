@@ -152,7 +152,7 @@
                 <table class="table">
                     <tr style="background-color: rgb(209, 19, 19);">
                         <td></td>
-                        <td class="text-right">POTONGAN</td>
+                        <td style="color: rgb(255, 255, 255);" class="text-right">POTONGAN</td>
                     </tr>
                     @if ($jml_ptgn_telat != 0)
                         <tr>

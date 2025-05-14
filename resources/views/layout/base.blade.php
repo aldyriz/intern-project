@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SIPEGAWAI | @yield('title')</title>
+    <title>SIKARYAWAN | @yield('title')</title>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     
     <link rel="shortcut icon" href="{{ URL::to('/img') }}/favicon.ico" type="image/x-icon">
@@ -119,9 +119,9 @@
                     @yield('content')
 
                     <!-- Footer -->
-                    <div class="footer text-muted">&copy; 2015. <a href="#">Limitless Web App Kit</a> by <a
+                    <!-- <div class="footer text-muted">&copy; 2015. <a href="#">Limitless Web App Kit</a> by <a
                             href="http://themeforest.net/user/Kopyov" target="_blank">Eugene Kopyov</a>
-                    </div>
+                    </div> -->
                     <!-- /footer -->
 
                 </div>

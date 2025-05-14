@@ -40,7 +40,8 @@
     @include('sweetalert::alert')
 
     <div class="container-login100"
-        style="background-image: url('{{ URL::to('/login_template') }}/images/bg-02.gif');">
+    style="background-image: url('{{ URL::to('/login_template') }}/images/grey-background.jpg');"
+    >
         @yield('content')
     </div>
 

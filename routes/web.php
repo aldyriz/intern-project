@@ -236,3 +236,11 @@ Route::group(['middleware' => ['auth']], function () {
 });
 
 Auth::routes();
+Route::get('/tes-email', function () {
+    \Mail::raw('Ini email tes dari Laravel.', function ($message) {
+        $message->to('sikaryawan7@gmail.com') // Ganti dengan email tujuan kamu
+                ->subject('Tes Email dari Laravel');
+    });
+
+    return 'Email berhasil dikirim!';
+});
