@@ -39,7 +39,7 @@
     <div class="col-md-6">
         <div class="panel">
             <div class="panel-heading">
-                <h5 class="panel-title">Persentase Kehadiran </h5>
+                <h5 class="panel-title">Persentase Kehadiran</h5>
                 <div class="heading-elements">
                     <form class="heading-form" method="post" action="{{ route('PegawaiDashboard.presensi') }}">
                         @csrf
